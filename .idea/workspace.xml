@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7417ed7a-a313-4349-b905-a9f37e59ca60" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_worksheet/index.html" afterPath="$PROJECT_DIR$/Expressions_worksheet/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Setup GitHub/index.html" afterPath="$PROJECT_DIR$/Setup GitHub/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AssociatingJS/js/script.js" afterPath="$PROJECT_DIR$/AssociatingJS/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7417ed7a-a313-4349-b905-a9f37e59ca60" name="Default" comment="" />
     <ignored path="Sutton_Elizabeth_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,8 +60,8 @@
         <option value="$PROJECT_DIR$/Expressions_worksheet/index.html" />
         <option value="$PROJECT_DIR$/Expressions_worksheet/extrascript.js" />
         <option value="$PROJECT_DIR$/Expressions_worksheet/js/script.js" />
-        <option value="$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/js/script.js" />
         <option value="$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/index.html" />
+        <option value="$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/js/script.js" />
       </list>
     </option>
   </component>

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7417ed7a-a313-4349-b905-a9f37e59ca60" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/index.html" afterPath="$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/js/script.js" afterPath="$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Sutton_Elizabeth_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.07978723">
+              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19329897">
-              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -72,8 +74,8 @@
         <option value="$PROJECT_DIR$/Expressions_worksheet/index.html" />
         <option value="$PROJECT_DIR$/Expressions_worksheet/extrascript.js" />
         <option value="$PROJECT_DIR$/Expressions_worksheet/js/script.js" />
-        <option value="$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/index.html" />
         <option value="$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/js/script.js" />
+        <option value="$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/index.html" />
       </list>
     </option>
   </component>
@@ -85,7 +87,6 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-14" />
     <option name="y" value="23" />
     <option name="width" value="920" />
     <option name="height" value="873" />
@@ -244,7 +245,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-14" y="23" width="920" height="873" extended-state="0" />
+    <frame x="0" y="23" width="920" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -322,18 +323,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/index.html">
+    <entry file="file://$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19329897">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.07978723">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
           <folding />
         </state>
       </provider>

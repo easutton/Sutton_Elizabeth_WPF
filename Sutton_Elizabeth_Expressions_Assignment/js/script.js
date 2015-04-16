@@ -18,12 +18,18 @@ var arr = ["apartment", "condo/townhouse", "house"];
 var question = prompt("Do you live in a " + arr[0] + " , " + arr[1] + " or " + arr[2] + "?");
 
 var priceSF = pricePaid / (overallFootage - nonLiving);
-alert("The price per square foot of your " + question + " is " + priceSF + " per square foot." );
+alert("The price per square foot of your " + question + " is $" + priceSF + " per square foot." );
 console.log();
 
 
 
+/*
+I typed in 1511 as my overall square footage, 15 as my nonliving space footage, 100000 as the cost of my home and I said
+that mine is a house and it gave me: "The price per square foot of your house is 66.66666666666666667 per square foot."
 
+ I typed in 2100 as my overall square footage, 117 as my nonliving space footage, 302,500 as the cost of my home and I said
+ that mine is a house and it gave me: "The price per square foot of your house is $NaN per square foot."
+ */
 
 
 

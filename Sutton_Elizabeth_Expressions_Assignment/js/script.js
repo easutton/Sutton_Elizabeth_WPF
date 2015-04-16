@@ -2,20 +2,20 @@
 Elizabeth Sutton
 SDI Section 2
 Expression Assignment
-4/12/15
- */
+4/16/15
+*/
 
 //Calculate your home's price per square foot
+alert("To calculate the price per square foot of your home, \nplease complete the following prompts. \n\nDo not use commas or decimals. Use whole numbers only.");
+
 
 //Givens: overall square footage of home, square footage of nonliving spaces, price paid for home
-
-alert("To calculate the price per square foot of your home, \nplease complete the following prompts. \n\nDo not use commas or decimals. Use whole numbers only.");
 var overallFootage = prompt("Please enter the total square footage of your home:");
 var nonLiving = prompt("Enter the square footage of the nonliving spaces:");
-var pricePaid = prompt("Enter the amount you paid for your home. Remember, do not use commas or decimals. Use whole numbers only:");
+var pricePaid = prompt("Enter the amount you paid for your home: \n(Remember, do not use commas or decimals. Use whole numbers only.)");
 
 
-//include an array
+//include an array in calculation
 var arr = ["apartment", "condo/townhouse", "house"];
 var question = prompt("Do you live in a " + arr[0] + " , " + arr[1] + " or " + arr[2] + "?");
 
@@ -39,23 +39,6 @@ that mine is a condo and it gave me: "The price per square foot of your condo is
 
 I typed in 1346 as my overall square footage, 109 as my nonliving space footage, 412560 as the cost of my home and I said
 that mine is a condo and it gave me: "The price per square foot of your apartment is $333.51657235246563 per square foot."
- */
 
-
-
-
-/*
-DON'T FORGET TO ADD TEST VALUES AT END, COMMENTED IN!!!
-i.e. "I typed in 5 for length and 6 for height and my calculator gave me 30 for the area."
-
-DON'T FORGET, YOU MUST MAKE AT LEAST 5 COMMITS!!
-
-"Hard coded" means to type in a specific value.
-
-Number(ageNow) < casts the var as a digit number, not canatonizing text
-OR
-parseInt(ageNow) which determines that the first character of ageNow is a digit and treats the whole
-thing like a number
-
-
- */
+Where I got the idea for this calculator assignment: http://www.ehow.com/how_4475776_calculate-price-per-square-foot.html
+*/

@@ -9,9 +9,10 @@ Expression Assignment
 
 //Givens: overall square footage of home, square footage of nonliving spaces, price paid for home
 
-var overallFootage = prompt("In order to calculate the price per square foot, please enter the total square footage of your home:");
+alert("To calculate the price per square foot of your home, \nplease complete the following prompts. \n\nDo not use commas or decimals. Use whole numbers only.");
+var overallFootage = prompt("Please enter the total square footage of your home:");
 var nonLiving = prompt("Enter the square footage of the nonliving spaces:");
-var pricePaid = prompt("Enter the amount you paid for your home:")
+var pricePaid = prompt("Enter the amount you paid for your home. Remember, do not use commas or decimals. Use whole numbers only:");
 
 //include an array
 var arr = ["apartment", "condo/townhouse", "house"];

@@ -12,13 +12,16 @@ Expression Assignment
 var overallFootage = prompt("In order to calculate the price per square foot, please enter the total square footage of your home:");
 var nonLiving = prompt("Enter the square footage of the nonliving spaces:");
 var pricePaid = prompt("Enter the amount you paid for your home:")
-var priceSF = pricePaid / (overallFootage - nonLiving);
-alert("The price of your home per square foot is " + priceSF);
-console.log
 
 //include an array
-var arr = ["Helpful", "Not helpful"];
-var question = prompt("Did you find this calculator " + arr[0] + " or " arr[1] + "?");
+var arr = ["apartment", "condo/townhouse", "house"];
+var question = prompt("Do you live in a " + arr[0] + " , " + arr[1] + " or " + arr[2] + "?");
+
+var priceSF = pricePaid / (overallFootage - nonLiving);
+alert("The price per square foot of your " + question + " is " + priceSF + " per square foot." );
+console.log();
+
+
 
 
 

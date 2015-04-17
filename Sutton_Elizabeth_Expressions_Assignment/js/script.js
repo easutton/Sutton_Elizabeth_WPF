@@ -10,20 +10,20 @@ alert("To calculate the price per square foot of your home, \nplease complete th
 
 
 //Givens: overall square footage of home, square footage of nonliving spaces, price paid for home
-var overallFootage = prompt("Please enter the total square footage of your home:");
-var nonLiving = prompt("Enter the square footage of the nonliving spaces:");
-var pricePaid = prompt("Enter the amount you paid for your home: \n(Remember, do not use commas or decimals. Use whole numbers only.)");
+var overallFootage = prompt("Please enter the total square footage of your home:"); //first variable
+var nonLiving = prompt("Enter the square footage of the nonliving spaces:"); //second variable
+var pricePaid = prompt("Enter the amount you paid for your home: \n(Remember, do not use commas or decimals. Use whole numbers only.)"); //third variable
 
 
 //include an array in calculation
-var arr = ["apartment", "condo/townhouse", "house"];
-var question = prompt("Do you live in a " + arr[0] + " , " + arr[1] + " or " + arr[2] + "?");
+var arr = ["apartment", "condo/townhouse", "house"]; //array is established
+var question = prompt("Do you live in a " + arr[0] + " , " + arr[1] + " or " + arr[2] + "?"); //array indeces are offered to user
 
 
 //calculate and print result
-var priceSF = pricePaid / (overallFootage - nonLiving);
-alert("The price per square foot of your " + question + " is $" + priceSF + " per square foot." );
-console.log();
+var priceSF = pricePaid / (overallFootage - nonLiving); //use of arithmetic operator
+alert("The price per square foot of your " + question + " is $" + priceSF + " per square foot." ); //calculation coded as an expression
+console.log(); //asked for result to be printed
 
 
 
@@ -39,6 +39,4 @@ that mine is a condo and it gave me: "The price per square foot of your condo is
 
 I typed in 1346 as my overall square footage, 109 as my nonliving space footage, 412560 as the cost of my home and I said
 that mine is a condo and it gave me: "The price per square foot of your apartment is $333.51657235246563 per square foot."
-
-Where I got the idea for this calculator assignment: http://www.ehow.com/how_4475776_calculate-price-per-square-foot.html
 */

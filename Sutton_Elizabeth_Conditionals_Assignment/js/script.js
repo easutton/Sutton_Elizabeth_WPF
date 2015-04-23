@@ -19,42 +19,57 @@
  totalLoan / term = monthly payment
  */
 
-/*
- (carCost * carRate) = totalLoan
- totalLoan / term = monthlyPayment
- allowance - monthlyPayment = if True, you can buy the car; if False, you cannot afford the car.
- */
 
 
 
-var car = prompt("So you want to buy a car. What is the year, make and model of the vehicle?");//irrelevent to calculation; use for final print out
-var cost = prompt("What is the cost of the vehicle?");//needed for loan amt calculation
-var allowance = prompt("How much do you want to spend on a car payment each month?");//needed for budget calculation
+
+var car = prompt("So, you want to buy a car. What is the year, make and model of the vehicle?");//irrelevent to calculation; use for final print out
+var cost = prompt("What is the cost of the vehicle?\n(Please enter whole numbers only. Do not use any symbols or punctuation.)");//needed for loan amt calculation
+
 
 var arr = ["36", "48"]; //array is established
 var term = prompt("How many months would you like to finance your loan? " + arr[0] + " or " + arr[1] + " months?"); //array offers options
 
-//feedback to user via if else statement
-if(arr[0]) {
-    console.log("You've chosen a" + arr[0] + " month loan.");
-}else{
-    console.log("You've chosen a" + arr[1] + " month loan.");
-}
-
-var income = prompt("What is your monthly income?");//variable for budget calculation
-
 var rate = 1.04;
-var totalLoan = (cost * rate);
-var monthlyPayment = cost * term; //use of arithmetic operator
+
+//calculate and print result
+var totalLoan = cost * rate; //use of arithmetic operator
+alert("Okay. We've calculated that at an interest rate of 8%, the total amount to be borrowed is $" + totalLoan + " for a term of " + term + " months.")\n\n("Now let's take a look at your finances."); //calculation coded as an expression
+console.log(); //asked for result to be printed
+
+//feedback to user via if else statement
+/*if(arr[0]) {
+    alert("You've chosen a " + arr[0] + " month loan. Now let's take a look at your income.");
+}else{
+    alert("You've chosen a " + arr[1] + " month loan. Now let's take a look at your income.");
+}*/
+
+var income = prompt("What is your monthly income?\n(Please enter whole numbers only. Do not use any symbols or punctuation.)");//variable for budget calculation
 
 
-//LOGICAL OPERATOR   Can I afford the monthly payment for this car?
+
+var monthlyPayment = totalLoan / term;
+monthlyPayment.toFixed(2);
+alert("Your calculated monthly payment for a " + car + " is $" + monthlyPayment); //calculation coded as an expression
+
+var allowance = prompt("How much do you want to spend on a car payment each month?");//needed for budget calculation
+
+//use of logical operator   "Can I afford the monthly payment for this car?"
 //If monthly payment is less than my allowance, I can afford this car.
 if(monthlyPayment < allowance && income > allowance){
-    console.log("You can afford this car");
+    console.log("You can afford this car!");
 }else{
     console.log("Sorry, you cannot afford this car.");
 }
+
+/*
+ totalLoan = (carCost * carRate)
+ monthlyPayment = totalLoan / term
+ if monthlyPayment < allowance = you can buy the car; if >, you cannot afford the car.
+ */
+
+
+
 
 
 

@@ -25,7 +25,7 @@ var totalLoan = cost * rate; //arithmetic operator
 alert("Okay. We've calculated that at an interest rate of 8%, the total amount to be borrowed is $" + totalLoan.toFixed(2) + "."); //calculation coded as an expression
 
 var arr = ["36", "48"]; //array is established
-var term = prompt("How many months would you like to finance your loan? " + arr[0] + " or " + arr[1] + " months?"); //array offers options; prompt #3
+var term = prompt("How many months would you like to finance your loan: " + arr[0] + " or " + arr[1] + " months?"); //array offers options; prompt #3
 
 var monthlyPayment = totalLoan / term; //arithmetic operator
 monthlyPayment.toFixed(2);

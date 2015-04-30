@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7417ed7a-a313-4349-b905-a9f37e59ca60" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sutton_Elizabeth_Conditionals_Assignment/js/script.js" afterPath="$PROJECT_DIR$/Sutton_Elizabeth_Conditionals_Assignment/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Sutton_Elizabeth_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,10 +24,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sutton_Elizabeth_Conditionals_Assignment/js/script.js">
+        <entry file="file://$PROJECT_DIR$/Functions_worksheet/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28994846">
-              <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.21634616">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -61,6 +61,8 @@
         <option value="$PROJECT_DIR$/Conditionals_worksheet/js/script.js" />
         <option value="$PROJECT_DIR$/Sutton_Elizabeth_Conditionals_Assignment/index.html" />
         <option value="$PROJECT_DIR$/Sutton_Elizabeth_Conditionals_Assignment/js/script.js" />
+        <option value="$PROJECT_DIR$/Functions_worksheet/index.html" />
+        <option value="$PROJECT_DIR$/Functions_worksheet/js/script.js" />
       </list>
     </option>
   </component>
@@ -72,6 +74,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="8" />
     <option name="y" value="23" />
     <option name="width" value="1366" />
     <option name="height" value="873" />
@@ -127,7 +130,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_Expressions_Assignment" />
+              <option name="myItemId" value="Functions_worksheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -141,103 +144,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_Expressions_Assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_Conditionals_Assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_Conditionals_Assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expressions_worksheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Expressions_worksheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals_worksheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sutton_Elizabeth_WPF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conditionals_worksheet" />
+              <option name="myItemId" value="Functions_worksheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -257,9 +164,11 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Functions_worksheet/js" />
       <recent name="$PROJECT_DIR$/Conditionals_worksheet/js" />
     </key>
   </component>
@@ -294,6 +203,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/Sutton_Elizabeth_WPF/Expressions_worksheet/index.html">
@@ -326,24 +241,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="873" extended-state="0" />
+    <frame x="8" y="23" width="1366" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18905473" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3023426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.261347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -368,7 +283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1474719">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -376,7 +290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19946809">
           <caret line="10" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -392,15 +305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24613403">
           <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19946809">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -408,50 +312,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.059840426">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conditionals_worksheet/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16881444">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_worksheet/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07978723">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssociatingJS/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sutton_Elizabeth_Conditionals_Assignment/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52884614">
+          <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40592784">
+        <state vertical-scroll-proportion="0.5048077">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditionals_worksheet/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48076922">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions_worksheet/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sutton_Elizabeth_Expressions_Assignment/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79252577">
+        <state vertical-scroll-proportion="0.86538464">
           <caret line="41" column="2" selection-start-line="29" selection-start-column="0" selection-end-line="41" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sutton_Elizabeth_Conditionals_Assignment/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Functions_worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28994846">
-          <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.21634616">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

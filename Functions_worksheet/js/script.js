@@ -27,8 +27,11 @@ I tested it again using 3 as the radius and got: "The circumference of the circl
 //Stung: Calculate how many bee stings it takes to kill a poor, innocent animal
 //Given: It takes 8.666666667 bee stings per pound to kill a poor, innocent animal
 
-function calcBeeStings(){
-    var poorInnocentVictimWt = 5;
-    var beeStingPound = 8.666666667;
-    var beeStingsActual = poorInnocentVictimWt * beeStingPound;
+function calcBeeStings(){ //begin function
+    var poorInnocentVictimWt = 5; //victim weight
+    var beeStingPound = 8.666666667; //my given
+    var beeStingsActual = poorInnocentVictimWt * beeStingPound; //calculation
+    console.log("It takes " + beeStingsActual + " bee stings to kill this poor, innocent animal.");
 }
+
+calcBeeStings();

@@ -28,10 +28,19 @@ I tested it again using 3 as the radius and got: "The circumference of the circl
 //Given: It takes 8.666666667 bee stings per pound to kill a poor, innocent animal
 
 function calcBeeStings(){ //begin function
-    var poorInnocentVictimWt = 5; //victim weight
+    var poorInnocentVictimWt = 1267; //victim weight
     var beeStingPound = 8.666666667; //my given
     var beeStingsActual = poorInnocentVictimWt * beeStingPound; //calculation
     console.log("It takes " + beeStingsActual + " bee stings to kill this poor, innocent animal."); //text for output
 }
 
 calcBeeStings(); //output the solution
+
+
+/*Testing
+Ran into some grammatical issues but found the problem, eventually and it ran.
+
+Tested this using 5 as the victim weight. It returned: "It takes 43.333333335 bee stings to kill this poor, innocent animal."
+
+ Tested this using 1267 as the victim weight. It returned: "It takes 10980.666667088999 bee stings to kill this poor, innocent animal." Poor elephant!
+ */

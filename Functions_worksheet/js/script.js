@@ -21,3 +21,10 @@ I fixed it and it output "The circumference of the circle is 6.28318."
 
 I tested it again using 3 as the radius and got: "The circumference of the circle is 18.849539999999998."
  */
+
+
+
+//Stung: Calculate how many bee stings it takes to kill a poor, innocent animal
+//Given: It takes 8.666666667 bee stings per pound to kill a poor, innocent animal
+
+function

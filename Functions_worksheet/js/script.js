@@ -31,7 +31,7 @@ function calcBeeStings(){ //begin function
     var poorInnocentVictimWt = 5; //victim weight
     var beeStingPound = 8.666666667; //my given
     var beeStingsActual = poorInnocentVictimWt * beeStingPound; //calculation
-    console.log("It takes " + beeStingsActual + " bee stings to kill this poor, innocent animal.");
+    console.log("It takes " + beeStingsActual + " bee stings to kill this poor, innocent animal."); //text for output
 }
 
-calcBeeStings();
+calcBeeStings(); //output the solution

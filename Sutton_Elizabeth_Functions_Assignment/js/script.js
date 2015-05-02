@@ -25,7 +25,7 @@ var roomWidth = prompt("Let's calculate how many cases of laminate flooring you 
 //validate user entered a number and that it is not letters
 while(roomWidth==="" || isNaN(roomWidth)){ //condition to test
     if(roomWidth===""){
-        roomWidth = prompt("Oops! You forgot to enter the width of your room in feet (no inches):");
+        roomWidth = prompt("Oops! You forgot to enter the width of your room. Please enter feet only (no inches):");
 
     } else if(isNaN(roomWidth)){
 
@@ -35,15 +35,18 @@ while(roomWidth==="" || isNaN(roomWidth)){ //condition to test
 
 }
 
-
-
-
-
-
-
-
-
 var roomLength = prompt("Enter the length of your room in feet (no inches):"); //variable
+
+//validate after prompt
+
+while(roomLength===""  || isNaN(roomLength)){
+    roomLength = prompt("Oops! You forgot to enter the length of your room. What is the length of your room in feet only (no inches)?");
+
+}
+
+
+
+
 var totalSqFt = roomWidth * roomLength; //calculation
 alert("The total square feet of your room is " + totalSqFt + "."); //calculation as an expression
 console.log(totalSqFt); //print results to console

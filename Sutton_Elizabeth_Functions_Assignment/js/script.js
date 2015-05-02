@@ -19,10 +19,34 @@
 2. sq. ft of room / 18.45 sq. ft. (1-case of flooring) = # of cases of flooring needed
  */
 
-var roomWidth = prompt("Enter the width of your room in feet (no inches):"); //variable
+
+var roomWidth = prompt("Let's calculate how many cases of laminate flooring you will need for your remodeling project.\nEnter the width of your room in feet (no inches):"); //declare variable
+
+//validate user entered a number and that it is not letters
+while(roomWidth==="" || isNaN(roomWidth)){ //condition to test
+    if(roomWidth===""){
+        roomWidth = prompt("Oops! You forgot to enter the width of your room in feet (no inches):");
+
+    } else if(isNaN(roomWidth)){
+
+        roomWidth = prompt("Oops! Please only enter numbers, no letters.\nEnter the width of your room in feet (no inches):");
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
 var roomLength = prompt("Enter the length of your room in feet (no inches):"); //variable
 var totalSqFt = roomWidth * roomLength; //calculation
 alert("The total square feet of your room is " + totalSqFt + "."); //calculation as an expression
-console.log(); //print results to console
+console.log(totalSqFt); //print results to console
+
 
 

@@ -20,7 +20,7 @@
  */
 
 
-var roomWidth = prompt("Let's calculate how many cases of laminate flooring you will need for your remodeling project.\nEnter the width of your room in feet (no inches):"); //declare variable
+var roomWidth = prompt("Let's calculate what the square footage of the room you wish to re-floor.\nEnter the width of your room in feet (no inches):"); //declare variable
 
 //validate user entered a number and that it is not letters
 while(roomWidth==="" || isNaN(roomWidth)){ //condition to test
@@ -44,32 +44,28 @@ while(roomLength===""  || isNaN(roomLength)){
 }
 
 
-//begin anonymous function
 
+//begin 3rd variable
+var flooring = prompt("Were you thinking of carpet or hardwood flooring?");
+flooring = flooring.toLowerCase();
+
+while(flooring !="carpet" && flooring!="hardwood" && flooring!="hardwood flooring"){
+    flooring = prompt("Please choose between carpet or hardwood:");
+}
+
+
+
+
+//begin anonymous function
 var totalSqFt = function(roomWidth, roomLength) { //anonymous function
     var sqFt = roomWidth * roomLength;
     return sqFt;
 }
 
 var a = totalSqFt(roomWidth, roomLength);
-alert("The total square feet of your room is " + a + "."); //calculation as an expression
+alert("The total square feet of your room using " + flooring + " flooring is " + a + "square feet."); //calculation as an expression
+
 console.log(a);
 
 
 
-/*
- totalSqFt(roomWidth, roomLength);
-
- function totalSqFt(roomWidth, roomLength){
-
-
-
-
- function totalSqFt(width, length){
-
- var totalSqFt = roomWidth * roomLength; //calculation
- alert("The total square feet of your room is " + totalSqFt + "."); //calculation as an expression
- console.log("The total square feet of your room is " + totalSqFt + "."); //print results to console
-
- }
- */

@@ -38,18 +38,24 @@ while(roomWidth==="" || isNaN(roomWidth)){ //condition to test
 var roomLength = prompt("Enter the length of your room in feet (no inches):"); //variable
 
 //validate after prompt
-
 while(roomLength===""  || isNaN(roomLength)){
     roomLength = prompt("Oops! You forgot to enter the length of your room. What is the length of your room in feet only (no inches)?");
 
 }
 
+totalSqFt(roomWidth, roomLength);
+
+
+function totalSqFt(width, length){
+
+    var totalSqFt = Math.round(roomWidth * roomLength); //calculation
+    alert("The total square feet of your room is " + totalSqFt + "."); //calculation as an expression
+    console.log(totalSqFt); //print results to console
+
+}
 
 
 
-var totalSqFt = roomWidth * roomLength; //calculation
-alert("The total square feet of your room is " + totalSqFt + "."); //calculation as an expression
-console.log(totalSqFt); //print results to console
 
 
 

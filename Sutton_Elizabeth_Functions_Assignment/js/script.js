@@ -43,19 +43,33 @@ while(roomLength===""  || isNaN(roomLength)){
 
 }
 
-totalSqFt(roomWidth, roomLength);
 
+//begin anonymous function
 
-function totalSqFt(width, length){
-
-    var totalSqFt = Math.round(roomWidth * roomLength); //calculation
-    alert("The total square feet of your room is " + totalSqFt + "."); //calculation as an expression
-    console.log(totalSqFt); //print results to console
-
+var totalSqFt = function(roomWidth, roomLength) { //anonymous function
+    var sqFt = roomWidth * roomLength;
+    return sqFt;
 }
 
+var a = totalSqFt(roomWidth, roomLength);
+alert("The total square feet of your room is " + a + "."); //calculation as an expression
+console.log(a);
+
+
+
+/*
+ totalSqFt(roomWidth, roomLength);
+
+ function totalSqFt(roomWidth, roomLength){
 
 
 
 
+ function totalSqFt(width, length){
 
+ var totalSqFt = roomWidth * roomLength; //calculation
+ alert("The total square feet of your room is " + totalSqFt + "."); //calculation as an expression
+ console.log("The total square feet of your room is " + totalSqFt + "."); //print results to console
+
+ }
+ */

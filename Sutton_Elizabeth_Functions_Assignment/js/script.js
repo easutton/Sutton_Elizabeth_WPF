@@ -5,22 +5,9 @@
  SDI Section 02
  */
 
-/* Rubric:
-- 2+ functions (1-normal, 1-anonymous) using Arguments & 3+ Parameters
-- at least 1 anonymous function
-- main code variables are NOT inside functions
-- user prompts validated using a While Loop
-- test values at end of code
-- 5+ meaningful commits
- */
-
-/*Calculate how much flooring will be needed for your remodeling project
-1. W * L = sq. foot of room
-2. sq. ft of room / 18.45 sq. ft. (1-case of flooring) = # of cases of flooring needed
- */
 
 
-var roomWidth = prompt("Let's calculate what the square footage of the room you wish to re-floor.\nEnter the width of your room in feet (no inches):"); //declare variable
+var roomWidth = prompt("Let's calculate how much flooring material you will need to refinish your room.\nEnter the width of your room in feet (no inches):"); //declare variable
 
 //validate user entered a number and that it is not letters
 while(roomWidth==="" || isNaN(roomWidth)){ //condition to test
@@ -51,6 +38,7 @@ flooring = flooring.toLowerCase();
 
 while(flooring !="carpet" && flooring!="hardwood" && flooring!="hardwood flooring"){
     flooring = prompt("Please choose between carpet or hardwood:");
+    flooring = flooring.toLowerCase();
 }
 
 
@@ -63,9 +51,20 @@ var totalSqFt = function(roomWidth, roomLength) { //anonymous function
 }
 
 var a = totalSqFt(roomWidth, roomLength);
-alert("The total square feet of your room using " + flooring + " flooring is " + a + "square feet."); //calculation as an expression
+alert("You will need " + a + " square feet of " + flooring + " to refinish your room."); //calculation as an expression
 
 console.log(a);
 
 
+/*
+Testing
 
+Multiple tests were run to fine-tune the code and the validation statements to the user.
+
+1. Began by skipping the first entry and it returned "Oops! You forgot to enter the width of your room. Please enter feet only (no inches):". I entered "12" then skipped the second entry for the length. It returned "Oops! You forgot to enter the length of your room. What is the length of your room in feet only (no inches)?". I typed in "10" and skipped the next prompt. It returned "Please choose between carpet or hardwood:". I chose carpet by typing in "CARPET" in all caps. It returned "You will need 120 square feet of carpet to refinish your room.".
+
+2. At the first prompt I entered "111", then "111" at the second prompt. However at the third prompt I entered "laminate" and it returned "Please choose between carpet or hardwood:". I then entered "Hardwood" and it returned "You will need 12321 square feet of hardwood to refinish your room."
+
+3. At the first prompt I entered "1234", then skipped the second prompt. It returned "Oops! You forgot to enter the length of your room. What is the length of your room in feet only (no inches)?" so I entered "1234". At the next prompt I entered "hardwood flooring" and it returned "You will need 1522756 square feet of hardwood flooring flooring to refinish your room." I then took out "flooring" from the text string.
+
+ */
